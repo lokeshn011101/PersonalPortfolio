@@ -1,0 +1,89 @@
+.homecontainer {
+  background-color: rgb(0, 33, 49);
+  height: 100vh;
+  color: rgb(238, 245, 245);
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1.1fr 0.9fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.namecontainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.9rem;
+  margin-left: 60px;
+}
+.name {
+  margin-left: 35px;
+}
+.name h1 {
+  font-weight: 5000;
+  margin: 10px auto 10px 25px;
+}
+.name h1 span {
+  color: rgb(252, 57, 57);
+}
+.myphoto-container {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myphoto {
+  width: 90%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 40px;
+}
+#myphotojpg {
+  width: 500px;
+  height: auto;
+  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.26), 0 00px 40px rgba(0, 0, 0, 0.26),
+    0 0px 55px rgba(0, 0, 0, 0.26);
+}
+.innerContainer {
+  transition: transform 0.2s;
+}
+
+.one,
+.two,
+.three {
+  display: flex;
+}
+.onel,
+.twol,
+.threel,
+.c {
+  margin: 13px 15px 13px 0;
+  background-color: white;
+}
+.onel {
+  height: 14px;
+  width: 84px;
+  background: linear-gradient(to left, #ff6a69 0%, #ffda7a 100%);
+}
+.twol {
+  height: 14px;
+  width: 150px;
+  background: linear-gradient(to left, #f09fff 0%, #7e99ff 100%);
+}
+.threel {
+  height: 14px;
+  width: 250px;
+  background: linear-gradient(to left, #44eec7 0%, #6393d6 100%);
+}
+.c {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: rgb(150, 150, 150);
+}
+.top-other,
+.bottom-other,
+.bottom {
+  margin-bottom: 0px;
+}

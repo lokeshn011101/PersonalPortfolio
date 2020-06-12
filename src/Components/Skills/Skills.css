@@ -1,0 +1,61 @@
+.skills-container {
+  background-color: rgb(0, 28, 41);
+  height: 100vh;
+  color: rgb(238, 245, 245);
+}
+
+.skill-container {
+  margin: 0 auto;
+  max-width: 90%;
+  height: 68vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.sheading {
+  margin: 0;
+  margin-top: 25px;
+  font-size: 60px;
+  background-color: rgb(0, 28, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+}
+.sheading h1 {
+  background: linear-gradient(to left, #f09fff 0%, #7e99ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.python,
+.webdev,
+.ccpp {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pythondiv,
+.webdevdiv,
+.cdiv {
+  width: 78%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.list {
+  display: flex;
+}
+.list img {
+  width: 100px;
+  height: auto;
+}
+.list h5 {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}

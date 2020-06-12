@@ -1,0 +1,106 @@
+.concontainer {
+  background-color: rgb(0, 28, 41);
+  height: 100vh;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.cheading {
+  text-align: center;
+  height: 25vh;
+  font-size: 2.3rem;
+}
+.cheading h1 {
+  background: linear-gradient(to left, #44eec7 0%, #6393d6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Dancing Script", cursive;
+  margin-top: 5rem;
+}
+.clinks {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.clinks a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+.contxt {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.a1 {
+  padding: 0.4rem;
+  position: relative;
+  display: inline-block;
+  color: aqua;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.a1:hover {
+  color: #abd0f0;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 60px #2196f3;
+  transition-delay: 0.5s;
+}
+.a1 span {
+  position: absolute;
+  display: block;
+}
+.a1 span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #2196f3);
+}
+.a1:hover span:nth-child(1) {
+  left: 100%;
+  transition: 0.5s;
+}
+.a1 span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(270deg, transparent, #2196f3);
+}
+.a1:hover span:nth-child(3) {
+  right: 100%;
+  transition: 0.5s;
+  transition-delay: 0.25s;
+}
+.a1 span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #2196f3);
+}
+.a1:hover span:nth-child(2) {
+  top: 100%;
+  transition: 0.5s;
+  transition-delay: 0.125s;
+}
+.a1 span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #2196f3);
+}
+.a1:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 0.5s;
+  transition-delay: 0.375s;
+}
+.contxt {
+  background: linear-gradient(to left, #f09fff 0%, #7e99ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
