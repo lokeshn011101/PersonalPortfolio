@@ -31,7 +31,7 @@ class Home extends React.Component {
           <div
             className="c top-other"
             data-aos="fade-left"
-            data-aos-delay="390"
+            data-aos-delay="400"
           ></div>
         </div>
         <div className="three">
@@ -55,17 +55,17 @@ class Home extends React.Component {
           <div
             className="c top"
             data-aos="fade-left"
-            data-aos-delay="330"
+            data-aos-delay="350"
           ></div>
           <div
             className="c top"
             data-aos="fade-left"
-            data-aos-delay="360"
+            data-aos-delay="400"
           ></div>
           <div
             className="c top"
             data-aos="fade-left"
-            data-aos-delay="390"
+            data-aos-delay="450"
           ></div>
         </div>
       </div>
@@ -95,17 +95,17 @@ class Home extends React.Component {
           <div
             className="c bottom-other"
             data-aos="fade-left"
-            data-aos-delay="330"
+            data-aos-delay="350"
           ></div>
           <div
             className="c bottom-other"
             data-aos="fade-left"
-            data-aos-delay="360"
+            data-aos-delay="400"
           ></div>
           <div
             className="c bottom-other"
             data-aos="fade-left"
-            data-aos-delay="390"
+            data-aos-delay="450"
           ></div>
         </div>
 
@@ -123,7 +123,7 @@ class Home extends React.Component {
           <div
             className="c bottom-other"
             data-aos="fade-left"
-            data-aos-delay="390"
+            data-aos-delay="400"
           ></div>
         </div>
       </div>
@@ -132,7 +132,7 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div className="homecontainer" ref={this.homecontainer}>
+      <div className="homecontainer" ref={this.homecontainer} id="home__id">
         <div className="namecontainer">
           <this.lkLinesTop />
           <div className="name">

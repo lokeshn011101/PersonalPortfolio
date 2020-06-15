@@ -1,0 +1,59 @@
+.navbar-container {
+  z-index: 1;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 100%;
+  background: transparent;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  font-family: "Dancing Script", cursive;
+}
+.navbar {
+  width: 100%;
+}
+.navbar-menu {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar-menu-link {
+  text-decoration: none;
+  color: aliceblue;
+  padding-top: 5px;
+  font-size: 1.8rem;
+}
+#bt1 {
+  background: #bf86ed;
+  background: -webkit-linear-gradient(right, #bf86ed, #47efce);
+  background: -moz-linear-gradient(right, #bf86ed, #47efce);
+  background: linear-gradient(to left, #bf86ed, #47efce);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: font-size 0.5s;
+}
+#bt2 {
+  background: linear-gradient(to left, #f09fff 0%, #7e99ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: font-size 0.5s;
+}
+#bt3 {
+  background: linear-gradient(to left, #ff6a69 0%, #ffda7a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: font-size 0.5s;
+}
+#bt4 {
+  background: linear-gradient(to left, #44eec7 0%, #6393d6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: font-size 0.5s;
+}
+#bt1:hover,
+#bt2:hover,
+#bt3:hover,
+#bt4:hover {
+  font-size: 2rem;
+}

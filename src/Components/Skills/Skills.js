@@ -18,7 +18,7 @@ export default class Skills extends React.Component {
   };
   render() {
     return (
-      <div className="skills-container">
+      <div className="skills-container" id="skills__id">
         <div className="sheading">
           <h1 data-aos="fade-down">Skills</h1>
         </div>

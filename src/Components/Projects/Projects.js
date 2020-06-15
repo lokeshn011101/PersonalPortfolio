@@ -13,7 +13,7 @@ export default class Projects extends React.Component {
 
   render() {
     return (
-      <div className="projects-container">
+      <div className="projects-container" id="projects__id">
         <div className="pheading" data-aos="fade-down">
           <h1>Some Small Projects...</h1>
         </div>

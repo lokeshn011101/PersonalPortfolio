@@ -9,7 +9,7 @@ export default class Contact extends React.Component {
   };
   render() {
     return (
-      <div className="concontainer">
+      <div className="concontainer" id="contact__id">
         <div className="cheading" data-aos="fade-down">
           <h1>So You've come this far, Why don't we talk!?</h1>
         </div>
@@ -23,7 +23,9 @@ export default class Contact extends React.Component {
               <span></span>
               <span></span>
               <span></span>
-              LinkedIN
+              <div className="span1">
+                Linked<div id="span1">I</div>N
+              </div>
             </a>
           </div>
 
@@ -36,7 +38,7 @@ export default class Contact extends React.Component {
               <span></span>
               <span></span>
               <span></span>
-              Instagram
+              <div className="span2">Instagram</div>
             </a>
           </div>
 
@@ -46,7 +48,7 @@ export default class Contact extends React.Component {
               <span></span>
               <span></span>
               <span></span>
-              Facebook
+              <div id="span3">Facebook</div>
             </a>
           </div>
 
@@ -56,7 +58,7 @@ export default class Contact extends React.Component {
               <span></span>
               <span></span>
               <span></span>
-              GitHub
+              <div id="span4">GitHub</div>
             </a>
           </div>
         </div>
