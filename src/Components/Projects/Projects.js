@@ -28,7 +28,10 @@ export default class Projects extends React.Component {
               <div className="proconimg">
                 <img src={One} alt="" className="pone" />
               </div>
-              <h2 className="t1">GridGame</h2>
+              <div className="ptitle">
+                <h2 className="t1">GridGame</h2>
+              </div>
+
               <div className="descc">
                 <div className="desccc">
                   A simple girdgame using HTML5, CSS3 and Vanilla JS!
@@ -50,7 +53,10 @@ export default class Projects extends React.Component {
               <div className="proconimg">
                 <img src={Two} alt="" className="ptwo" />
               </div>
-              <h2 className="t2">Calculator!</h2>
+              <div className="ptitle">
+                <h2 className="t2">Calculator!</h2>
+              </div>
+
               <div className="descc">
                 <div className="desccc">
                   A Simple Calculator made using ReactJS and CSS3!
@@ -72,7 +78,10 @@ export default class Projects extends React.Component {
               <div className="proconimg">
                 <img src={Three} alt="" className="pthree" />
               </div>
-              <h2 className="t3">hAcKeRs_eScApE!</h2>
+              <div className="ptitle">
+                <h2 className="t3">hAcKeRs_eScApE!</h2>
+              </div>
+
               <div className="descc">
                 <div className="desccc">
                   A Simple Questionnaire game made using C programming language!

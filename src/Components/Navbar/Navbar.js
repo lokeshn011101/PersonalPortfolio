@@ -13,7 +13,7 @@ export default class Navbar extends Component {
       <div className="navbar-container" data-aos="fade-left">
         <div className="navbar">
           <div className="navbar-menu">
-            <div data-aos="fade-left" data-aos-delay="100">
+            <div className="paddd" data-aos="fade-left" data-aos-delay="100">
               <NavHashLink
                 smooth
                 to="/#home__id"
@@ -23,7 +23,7 @@ export default class Navbar extends Component {
                 Home
               </NavHashLink>
             </div>
-            <div data-aos="fade-left" data-aos-delay="200">
+            <div className="paddd" data-aos="fade-left" data-aos-delay="200">
               <NavHashLink
                 smooth
                 to="/#skills__id"
@@ -34,7 +34,7 @@ export default class Navbar extends Component {
                 Skills
               </NavHashLink>
             </div>
-            <div data-aos="fade-left" data-aos-delay="300">
+            <div className="paddd" data-aos="fade-left" data-aos-delay="300">
               <NavHashLink
                 smooth
                 className="navbar-menu-link btn-1"
@@ -44,7 +44,7 @@ export default class Navbar extends Component {
                 Mini Projects
               </NavHashLink>
             </div>
-            <div data-aos="fade-left" data-aos-delay="400">
+            <div className="paddd" data-aos="fade-left" data-aos-delay="400">
               <NavHashLink
                 smooth
                 className="navbar-menu-link btn-1"

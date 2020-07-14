@@ -40,7 +40,8 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(66, 75, 83);
+  background-color: #c7dabc;
+  color: rgb(3, 8, 26);
   border-radius: 5px;
   box-shadow: 0 0px 30px rgba(0, 0, 0, 0.151), 0 00px 40px rgba(0, 0, 0, 0.26),
     0 0px 55px rgba(0, 0, 0, 0.26);
@@ -50,11 +51,27 @@
   width: 80%;
   height: 80%;
 }
+.ptitle {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
 .t2 {
   font-family: "Share Tech Mono";
 }
 .t3 {
   font-family: "Cascadia Mono";
+}
+.t1,
+.t2,
+.t3 {
+  text-align: center;
+  width: 100%;
+  font-size: 3vw;
+}
+.t3 {
+  font-size: 2.4vw;
 }
 .proconimg {
   width: 90%;
@@ -82,12 +99,12 @@
 
 .procon a {
   text-decoration: none;
-  color: rgb(231, 170, 56);
+  color: rgb(18, 106, 109);
   font-size: 16px;
   transition: color 0.5s, font-size 0.5s;
 }
 .procon a:hover {
-  color: rgb(89, 189, 255);
+  color: rgb(255, 89, 89);
   font-size: 18px;
 }
 /*  */
