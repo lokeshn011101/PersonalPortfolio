@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/PersonalPortfolio/static/css/main.474d6bec.chunk.css",
+    "main.js": "/PersonalPortfolio/static/js/main.2ca162e7.chunk.js",
+    "main.js.map": "/PersonalPortfolio/static/js/main.2ca162e7.chunk.js.map",
+    "runtime-main.js": "/PersonalPortfolio/static/js/runtime-main.01cb99b5.js",
+    "runtime-main.js.map": "/PersonalPortfolio/static/js/runtime-main.01cb99b5.js.map",
+    "static/css/2.4707e12a.chunk.css": "/PersonalPortfolio/static/css/2.4707e12a.chunk.css",
+    "static/js/2.19e5b72f.chunk.js": "/PersonalPortfolio/static/js/2.19e5b72f.chunk.js",
+    "static/js/2.19e5b72f.chunk.js.map": "/PersonalPortfolio/static/js/2.19e5b72f.chunk.js.map",
+    "index.html": "/PersonalPortfolio/index.html",
+    "precache-manifest.9272be190fd7fca58f35a369d214ec31.js": "/PersonalPortfolio/precache-manifest.9272be190fd7fca58f35a369d214ec31.js",
+    "service-worker.js": "/PersonalPortfolio/service-worker.js",
+    "static/css/2.4707e12a.chunk.css.map": "/PersonalPortfolio/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.474d6bec.chunk.css.map": "/PersonalPortfolio/static/css/main.474d6bec.chunk.css.map",
+    "static/js/2.19e5b72f.chunk.js.LICENSE.txt": "/PersonalPortfolio/static/js/2.19e5b72f.chunk.js.LICENSE.txt",
+    "static/media/222.png": "/PersonalPortfolio/static/media/222.fcba1fce.png",
+    "static/media/One.png": "/PersonalPortfolio/static/media/One.89b607f1.png",
+    "static/media/Pandas.png": "/PersonalPortfolio/static/media/Pandas.42e9a1f3.png",
+    "static/media/Three.png": "/PersonalPortfolio/static/media/Three.3768b103.png",
+    "static/media/c++.png": "/PersonalPortfolio/static/media/c++.8f42e018.png",
+    "static/media/c.png": "/PersonalPortfolio/static/media/c.1c1888a3.png",
+    "static/media/css.png": "/PersonalPortfolio/static/media/css.c9421be5.png",
+    "static/media/javascript.png": "/PersonalPortfolio/static/media/javascript.d3304b83.png",
+    "static/media/myphoto.JPG": "/PersonalPortfolio/static/media/myphoto.18792f67.JPG",
+    "static/media/numpy.png": "/PersonalPortfolio/static/media/numpy.efb91bd6.png",
+    "static/media/python.png": "/PersonalPortfolio/static/media/python.b9bbb1d7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01cb99b5.js",
+    "static/css/2.4707e12a.chunk.css",
+    "static/js/2.19e5b72f.chunk.js",
+    "static/css/main.474d6bec.chunk.css",
+    "static/js/main.2ca162e7.chunk.js"
+  ]
+}
