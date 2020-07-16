@@ -2,8 +2,11 @@
 .projects,
 .skills,
 .contact {
-  width: 100vw;
+  width: 100%;
 }
-.app-container {
-  width: 100vw;
+.appcontainer {
+  width: 100%;
+}
+#root {
+  width: 100%;
 }
