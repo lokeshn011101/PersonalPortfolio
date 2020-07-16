@@ -11,7 +11,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className="navbar-container" data-aos="fade-left">
-        <div className="navbar">
+        <div className="navbar-sub">
           <div className="navbar-menu">
             <div className="paddd" data-aos="fade-left" data-aos-delay="100">
               <NavHashLink

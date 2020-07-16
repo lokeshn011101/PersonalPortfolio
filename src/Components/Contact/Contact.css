@@ -10,24 +10,38 @@
 .cheading {
   text-align: center;
   height: 25vh;
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 .cheading h1 {
   background: linear-gradient(to left, #44eec7 0%, #6393d6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Dancing Script", cursive;
-  margin-top: 5rem;
 }
 .clinks {
-  width: 70%;
+  margin-top: -20px;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .clinks a {
-  font-size: 2rem;
+  font-size: 3.5vw;
   text-decoration: none;
+}
+@media screen and (max-width: 904px) {
+  .clinks a {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .clinks {
+    flex-direction: column;
+    height: auto;
+  }
+  .clinks a {
+    font-size: 6vw;
+  }
 }
 .contxt {
   text-align: center;

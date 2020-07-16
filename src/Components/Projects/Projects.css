@@ -32,6 +32,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .procon {
   width: 75%;
   height: 75%;
@@ -46,6 +47,23 @@
   box-shadow: 0 0px 30px rgba(0, 0, 0, 0.151), 0 00px 40px rgba(0, 0, 0, 0.26),
     0 0px 55px rgba(0, 0, 0, 0.26);
   transition: width 0.5s, height 0.5s;
+}
+@media screen and (max-width: 600px) {
+  .inner-project-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .procon {
+    width: 100%;
+    height: 90%;
+    flex-direction: row;
+  }
+  .procon:last-child {
+    margin-bottom: 20px;
+  }
+  .proconimg {
+    margin-left: 10px;
+  }
 }
 .procon:hover {
   width: 80%;

@@ -15,7 +15,7 @@ export default class Projects extends React.Component {
     return (
       <div className="projects-container" id="projects__id">
         <div className="pheading" data-aos="fade-down">
-          <h1>Some Small Projects...</h1>
+          <h1>Some Small Apps...</h1>
         </div>
 
         <div className="inner-project-container">
