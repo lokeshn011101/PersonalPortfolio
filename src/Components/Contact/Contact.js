@@ -3,6 +3,7 @@ import "./Contact.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+
 export default class Contact extends React.Component {
   componentDidMount = () => {
     AOS.init({ offset: 100, delay: 100, duration: 700 });

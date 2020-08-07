@@ -10,3 +10,10 @@
 #root {
   width: 100%;
 }
+#tsparticles {
+  position: fixed !important;
+}
+.tsparticles-canvas-el {
+  width: 100vw !important;
+  height: 100vh !important;
+}
